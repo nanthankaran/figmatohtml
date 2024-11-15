@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-  
-    <link rel="stylesheet" href="css/main.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <style>
+    <link rel="stylesheet" href="/css/main.css">
+  
+  <style>
         .hero-section{
-            background-image: url('images/Herobanner1.jpg');
+            background-image: url(/images/Hero\ banner\ 1.jpg);
             height: 700px;
         }
+
         .bannerheading h1{
             font-size: 39px;
             color:#17345F;
@@ -83,7 +84,326 @@
 .secondsection{
     background-color: #F3FBFF;
 }
-        /* Add your other styles here */
+.arrow{
+  top: 173px;
+    left: 384px;
+}
+.counter_bg1{
+  background-color: #FFFAEC;
+}
+   
+
+.counter_bg .counter_rht ul{
+    background: #fff ;
+    padding: 40px 0px !important;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    margin:0px;
+    box-shadow: 0px 0px 8px #00000042;
+}
+.counter_bg .counter_rht ul li{
+    border-right: 1px solid #00000026;
+    padding: 0px 30px;
+    list-style: none;
+}
+.counter_bg .counter_rht ul li:last-child{
+    border-right: none;
+}
+.fivesection .card-body{
+  background-color: #F5FAFF;
+}
+.card-no-border {
+    --bs-card-border-color: transparent;
+    --bs-card-border-width: 0;
+}
+.fivesection h2{
+  font-size: 40px;
+}
+
+.custom-container {
+      position: relative;
+      overflow: hidden;
+      border-radius: 1rem;
+      --position: 50%;
+    }
+    .custom-image-container {
+      max-width: 100%;
+      max-height: 90vh;
+      aspect-ratio: 1/1;
+    }
+    .custom-slider-image {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: left;
+    }
+    .custom-image-before {
+      position: absolute;
+      inset: 0;
+      width: var(--position);
+      
+    }
+    .custom-slider {
+      position: absolute;
+      inset: 0;
+      cursor: pointer;
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .custom-slider-line {
+      position: absolute;
+      inset: 0;
+      width: .2rem;
+      height: 100%;
+      background-color: #fff;
+      left: var(--position);
+      transform: translateX(-50%);
+      pointer-events: none;
+    }
+    .custom-slider-button {
+      position: absolute;
+      background-color: #fff;
+      color: black;
+      padding: .5rem;
+      border-radius: 100vw;
+      display: grid;
+      place-items: center;
+      top: 50%;
+      left: var(--position);
+      transform: translate(-50%, -50%);
+      pointer-events: none;
+      box-shadow: 1px 1px 1px hsl(0, 50%, 2%, .5);
+    }
+    .coloredgreen{
+      background-color: #F1FFF7;
+    }
+    .trauma-Expert-bg {
+  background: #E3F9FF;
+  padding: 60px 0;
+}
+
+.trauma-Expert-bg .Expert-img img {
+  width: -webkit-fill-available;
+  max-width: 650px;
+}
+
+.trauma-Expert-bg  .Expert-text h3 {
+  font-size: 36px;
+}
+.trauma-Expert-bg  .Expert-text h3 span {
+  color: #1783A1;
+}
+
+.trauma-Expert-bg  .Expert-text p {
+  color: #585858;
+}
+
+.trauma-Expert-bg  .Expert-text ul li {
+  color: #8D8D8D;
+  padding: 5px 0;
+}
+.trauma-Expert-bg  .Expert-text a {
+  background: #1783A1;
+  color: #fff;
+  padding: 8px 27px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.trauma-testimonial-bg {
+  background: #FFFAEC;
+  padding: 60px 0;
+}
+
+.trauma-testimonial-bg .testi-title h6 {
+  background: #ffffff;
+  width: fit-content;
+  color: #17345F;
+  padding: 6px 14px;
+  font-size: 14px;
+  border-radius: 12px;
+}
+
+.trauma-testimonial-bg .testi-title h2 {
+  font-size: 44px;
+  font-weight: 700;
+  margin: 40px 0 20px;
+  color: #1E1E1E;
+  line-height: 1.3;
+}
+
+.trauma-testimonial-bg .testi-title a {
+  background: #1783A1;
+  color: #fff;
+  padding: 8px 27px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+
+.trauma-testimonial-bg .client p{
+  color: #888888;
+}
+
+.trauma-testimonial-bg .client h3 {
+  color: #16345F;
+}
+.trauma-testimonial-bg .client h3 span {
+  color: #7B7B7B;
+}
+
+.trauma-testimonial-bg .client  h5 {
+  color: #6D6D6D;
+}
+.testi-but {
+      position: absolute;
+  top: 0;
+  bottom: unset;
+  width: fit-content;
+  }
+  .testi-but.carousel-control-prev {
+      right: 60px;
+  left: unset;
+  }
+  .carousel-control-prev-icon {
+  background-image: url(https://www.gangahospital.com/public/assets/images/Trauma-india/testi-arrow-left.png);
+}
+.carousel-control-next-icon {
+  background-image: url(https://www.gangahospital.com/public/assets/images/Trauma-india/testi-arrow.png);
+}
+/************************Achievements-bg******************/
+.trauma-Achievements-bg {
+  padding: 60px 0;
+}
+
+.trauma-Achievements-bg .achive-text h2 {
+  font-size: 40px;
+}
+.trauma-Achievements-bg .achive-text h2 span {
+  color: #1783A1;
+}
+.trauma-Achievements-bg .achive-text p {
+  color: #888888;
+}
+
+.trauma-Achievements-bg .achive-text a {
+  background: #1783A1;
+  color: #fff;
+  padding: 8px 27px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.trauma-Achievements-bg ul li {
+  display: inline-block;
+  width: 32%;
+  padding: 8px 5px;
+}
+.trauma-Achievements-bg ul li img {
+  width: -webkit-fill-available;
+  max-width: 216px;
+}
+
+/****************************faq-bg***************************/
+.faq {
+ background-color: #F3FBFF;
+  padding: 60px 0;
+}
+.faq .faq-title h6 {
+  background: #17345F;
+  width: fit-content;
+  color: #fff;
+  padding: 6px 14px;
+  font-size: 14px;
+  border-radius: 12px;
+}
+.faq .faq-title h4  {
+  font-size: 46px;
+}
+
+.faq .faq-img img {
+  width: -webkit-fill-available;
+  max-width: 600px;
+}
+
+.faq .faq {
+  --bs-accordion-bg: unset;
+}
+.faq .faq .accordion-item {
+  border: unset;
+  margin: 0 0 50px;
+  box-shadow: 0 0 10px 0 #00000026;
+  background: #fff;
+  border-radius: 16px;
+}
+.faq .faq .accordion-button {
+  border-radius: 16px 16px 0 0;
+}
+.faq .faq .accordion-button:focus { 
+  box-shadow: unset;
+}
+.faq .faq .accordion-button::after {
+  content: "";
+  background: url(images/right-arrow1.png) no-repeat center  ;
+}
+.faq .faq .accordion-button:not(.collapsed)::after {
+  background-image: unset;
+}
+
+.faq .faq .accordion-button:not(.collapsed) {
+  color: #ffffff;
+  background-color: #03C0B4;
+  box-shadow: unset;
+  font-size: 16px;
+}
+.faq .faq .accordion-body {
+  color: #8E8E8E;
+  padding: 10px 20px 15px 60px;
+}
+@media only screen and (max-width: 765px) {
+.display_n{
+  display: none;
+}
+}
+.last button{
+  background-color: #1783A1;
+  border-radius: 20px;
+  padding-left: 20px;
+  border: none  ;
+  padding-right: 20px;
+}
+.last button:hover{
+  background-color:black;
+  color:white;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+
+}
+
+@media (max-width: 767px) {
+    .counter_bg .counter_rht ul li {
+        margin: 20px 30px;
+        border-bottom: 1px solid #00000026;
+        border-right: none !important;
+        width: 100% !important;
+    }
+    .counter_bg  .row{
+      margin-right: 0px !important;
+
+    }
+}
+@media (max-width: 767px) {
+    .counter_bg .counter_rht ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+}
     </style>
 </head>
 <body>
@@ -93,46 +413,60 @@
              
               <div class="col-lg-6 bannerheading">
                 <div class="banner-border">
-                    <img src="images/banner-borderimg.png" alt="">
+                    <img src="/images/banner-borderimg.png" alt="" class="display_n">
                     <p>Worldclass Care</p>
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-4">INDIA’S PREMIER DESTINATION<br> FOR ARTHROSCOPY & SPORTS MEDICINE</h1>
+                    <h1 class="display-5 fw-bold    lh-1 mb-4">INDIA’S PREMIER DESTINATION<br> FOR ARTHROSCOPY & SPORTS MEDICINE
+                    </h1>
+
                 </div>     
              
-                <p class="lead">At Ganga Hospital, we specialize in restoring movement and ensuring quick recoveries with our expert arthroscopy and sports medicine care. Guiding you on your path to wellness.</p>
+              
+                <p class="lead">At Ganga Hospital, we specialize in restoring movement and ensuring quick recoveries with our expert arthroscopy and sports medicine care. Guiding you on your path to wellness.
+                </p>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start banner-buttons">
-                  <button type="button" class="btn btn-lg px-4 me-md-2 firstbutton">Book Consultation Now</button>
-                  <button type="button" class="btn btn-lg px-4 secondbutton">Contact Us</button>
+                  <button type="button" class="btn  btn-lg px-4 me-md-2 firstbutton">Book Consultation Now
+                </button>
+                  <button type="button" class="btn  btn-lg px-4 secondbutton">Contact Us</button>
                 </div>
               </div>
             </div>
           </div>
+
     </div>
 
     <div class="firstsection">
-        <div class="container col-xxl-8 px-4 py-5">
+        <div class="container col-xxl-12 px-4 py-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
               <div class="col-10 col-sm-8 col-lg-6">
-                <img src="images/About_Orthopaedic_side_img.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+                <img src="/images/About_Orthopaedic_side_img.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
               </div>
               <div class="col-lg-6">
                 <p class="colorpragraph">About Orthopaedic</p>
-                <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-4">Top Hospital in India for<br> Orthopedic Medical Tourism</h1>
+                    <h1 class="display-5 fw-bold    lh-1 mb-4">Top Hospital in India for<br> Orthopedic Medical Tourism
+                    </h1>
+
                 <ul>
                     <li><p style="line-height: 30px; color: #888888;">Ganga Hospital is India's leading medical tourism orthopaedic surgery hospital with the best surgeons and advanced medical treatment</p></li>
                     <li><p style="line-height: 30px; color: #888888;">Dr. S. Rajasekaran, a renowned orthopedic surgeon in India associated with Ganga Hospital, has been recognized as a best global scientist in orthopaedic surgery</p></li>
                 </ul>
                 <div class="listitems d-flex justify-content-between">
                     <ul class="custom-list">
-                        <li class="mb-3"><span class="custom-icon"><img src="images/check 1.png" alt=""></span>Top Medical Experts</li>
-                        <li><span class="custom-icon"><img src="images/check 1.png" alt=""></span>Top Medical Experts</li>
-                    </ul>
-                    <ul class="custom-list">
-                        <li class="mb-3"><span class="custom-icon"><img src="images/check 1.png" alt=""></span>Top Medical Experts</li>
-                        <li><span class="custom-icon"><img src="images/check 1.png" alt=""></span>Top Medical Experts</li>
-                    </ul>
+                        <li class="mb-3"><span class="custom-icon"><img src="images/check 1.png" alt=""></span>Seamless Experience</li>
+                        <li><span class="custom-icon"><img src="images/check 1.png" alt=""></span>Convenient Access
+                        </li>
+                        
+                      </ul>
+                      <ul class="custom-list">
+                       
+                        <li class="mb-3"><span class="custom-icon"><img src="images/check 1.png" alt=""></span>Advanced Medical Excellence
+                        </li>
+                        <li><span class="custom-icon"><img src="images/check 1.png" alt=""></span>Trusted Expertise
+                        </li>
+                      </ul>
                 </div>
                 <div class="d-grid gap-2 d-md-flex justify-content-md-start firstsectionbutton mt-3">
                   <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Learn More</button>
+                
                 </div>
               </div>
             </div>
@@ -140,29 +474,747 @@
     </div>
 
     <div class="secondsection">
-        <div class="container col-xxl-12 px-4 py-5 hero">
+        <div class="container col-xxl-12 px-5 py-5 hero">
             <div class="row flex-lg align-items-center g-5 py-5 justify-content-center">
+             
               <div class="col-lg-9 bannerheading">
                 <div class="banner-border text-center">
-                    <p>Work process</p>
-                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-4">Your Journey With Ganga Hospital</h1>
+                  
+                    <p >Work process</p>
+                    <h1 class="display-5 fw-bold    lh-1 mb-4">Your Journey With Ganga Hospital
+                    </h1>
                 </div>   
+
+             
+              
+                
+              
               </div>
             </div>
             <div class="row align-items-center justify-content-center">
-                <div class="col">
-                    <img src="images/secondsection1.png" alt="">
+                <div class="col text-center position-relative">
+                    <img src="/images/secondsection_1.png" alt="">
+                    <h2 class="mt-4">
+                      Get Consultation
+                      
+                    </h2>
+                    <p>Personalized evaluation and planning, including travel and visa support for international patients.</p>
+                    <img src="images/Arrow@4x 1.png" alt="" class="position-absolute arrow d-none d-lg-block">
                 </div>
-                <div class="col">
-                    <img src="images/secondsection_2.png" alt="">
+                <div class="col text-center position-relative">
+                    <img src="/images/secondsection_2.png" alt="">
+                    <h2 class="mt-4">
+                      Precision Surgery
+                     
+
+                    </h2>
+                    <p>Expert surgical techniques by specialists, ensure patient safety and comfort during recovery.
+                    </p>
+                    <img src="images/Arrow@4x 1.png" alt="" class="position-absolute arrow d-none d-lg-block">
                 </div>
-                <div class="col">
-                    <img src="images/secondsection_3.png" alt="">
+                <div class="col text-center">
+                    <img src="/images/secondsection_3.png" alt="">
+                    <h2 class="mt-4">Recovery Journey
+
+                    </h2>
+                    <p>Tailored rehabilitation and ongoing support for a safe and effective recovery process.
+                    </p>
                 </div>
+
             </div>
           </div>
+
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <div class="thirdsection">
+     
+
+      </h2>
+      <div class="container px-4 py-5">
+      
+      
+    
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+         
+          <div class="col-lg-4">
+            <img src="images/WhyChooseganga.png" alt="" class="img-fluid">
+          </div>
+    
+          <div class="col-lg-8">
+            <p class="colorpragraph">Features
+            </p>
+            <h2 class="pb-2 " style="font-size: 40px; font-weight: 700;">Why Choose Ganga Hospital?
+            </h2>
+            
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="features1">
+                <div class="col d-flex flex-column gap-2 border-bottom mt-2">
+               
+                  <h4 class="fw-semibold mb-0 " style="color: #1783A1; font-weight: 700;">Expert Team
+                  </h4>
+                  <p class="text-body-secondary">Nationally recognized specialists with a proven success.
+                  </p>
+                </div>
+      
+                <div class="col d-flex flex-column gap-2 border-bottom mt-2">
+                 
+                  <h4 class="fw-semibold mb-0   " style="color: #1783A1; font-weight: 700;">Comprehensive Care
+  
+                  </h4>
+                  <p class="text-body-secondary">Covers assessment, treatment, and post-op rehabilitation.
+  
+                  </p>
+                </div>
+      
+                <div class="col d-flex flex-column gap-2 border-bottom mt-2">
+                  
+                  <h4 class="fw-semibold mb-0   " style="color: #1783A1; font-weight: 700;">Personalized Plans
+  
+                  </h4>
+                  <p class="text-body-secondary"> Tailored care to address each patient's unique needs.
+  
+                  </p>
+                </div>
+
+              </div>
+              <div class="features2">
+                <div class="col d-flex flex-column gap-2 border-bottom mt-2">
+               
+                  <h4 class="fw-semibold mb-0   " style="color: #1783A1; font-weight: 700;">Trusted Quality
+                  </h4>
+                  <p class="text-body-secondary">Renowned for consistently delivering outstanding patient outcomes
+                    .</p>
+                </div>
+                <div class="col d-flex flex-column gap-2 border-bottom mt-2">
+                 
+                  <h4 class="fw-semibold mb-0   " style="color: #1783A1; font-weight: 700;">Advanced Technology
+                  </h4>
+                  <p class="text-body-secondary">Equipped with modern sports medicine technology.
+                  </p>
+                </div>
+                <div class="col d-flex flex-column gap-2 border-bottom mt-2">
+                 
+                  <h4 class="fw-semibold mb-0   " style="color: #1783A1; font-weight: 700;">Quick Recovery
+                  </h4>
+                  <p class="text-body-secondary"> Procedures aim to minimize recovery time for quicker healing.</p>
+                </div>
+
+              </div>
+              
+    
+             
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="forthsection counter_bg1">
+
+      <div class="container counter_bg " style="padding:0px !important;" >
+        <div class="row align-items-center">
+            <div class="col-lg-12 col-md-8 col-sm-12 col-xs-12"> 
+                <div class="counter_rht">
+                    <ul class="display-flex" style="background-color:#f5f5fd00 !important;box-shadow:0px 0px 0px #00000042 !important;padding: 40px 0px 0px !important;">
+                        <li style="width: 25%;">
+                            <div class="">
+                              <div class="countercontent d-flex align-items-center justify-content-center">
+                                <img src="images/doctors-office 1.png" alt="" class="pr-4">
+                                <p style=" font-weight:500; font-size:20px;text-align:center; padding-left: 20px; margin-top: 13px; color: #1783A1;"> Happy patients</p>
+
+                              </div>
+                            
+                                <p style=" font-size:40px; font-weight:700;text-align:center;"><span class="counter-value" data-count="3500"></span>+</h6>
+                              
+                            </div>
+                        </li>
+                        <li style="width: 25%;">
+                            <div class="">
+                              <div class="countercontent d-flex align-items-center justify-content-center">
+                                <img src="images/analytics.png" alt="" class="pr-4">
+                                <p style=" font-weight:500; font-size:20px;text-align:center; padding-left: 20px; margin-top: 13px; color: #1783A1;">Research Publications</p>
+
+                              </div>
+                            
+                                <p style=" font-size:40px; font-weight:700;text-align:center;"><span class="counter-value" data-count="100"></span>K+</h6>
+                             
+                            </div>
+                        </li>
+                        <li style="width: 25%;">
+                            <div class="">
+                              <div class="countercontent d-flex align-items-center justify-content-center">
+                                <img src="images/heart-beat 1.png" alt="" class="pr-4">
+                                <p style=" font-weight:500; font-size:20px;text-align:center; padding-left: 20px; margin-top: 13px; color: #1783A1;"> Successful Surgeries</p>
+
+                              </div>
+                            
+                                <p style="font-size:40px; font-weight:700;text-align:center;"><span class="counter-value" data-count="50000"></span>+</h6>
+                               
+                            </div>
+                        </li>
+                        <li style="width: 25%;">
+                            <div class="">
+                              <div class="countercontent d-flex align-items-center justify-content-center">
+                                <img src="images/trophy 4.png" alt="" class="pr-4">
+                                <p style=" font-weight:500; font-size:20px;text-align:center; padding-left: 20px; margin-top: 13px; color: #1783A1;">Awards winnings </p>
+
+                              </div>
+                            
+                                <p style="font-size:40px; font-weight:700;text-align:center;"><span class="counter-value" data-count="500"></span>+</h6>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+        
+    </div>    
+  </div>
+
+    </div>
+    <div class="fivesection container px-4 py-5">
+      <h2 class="display-5 fw-bold  lh-1 mb-4">Our medical Specialist
+      </h2>
+      <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow card-no-border">
+            <img src="images/specilist_1.jpg" alt="">
+            <div class="card-body">
+              <p style="color: #16345F;font-size: 20px; font-weight: 700;">Dr. (Prof) S Rajasekaran</p>
+              <div class="countercontent d-flex align-items-start justify-content-start">
+                <img src="images/medical-assistance 1.png" alt="" class="pr-4">
+                <p style=" font-weight:500; font-size:20px; padding-left: 20px; margin-top: -2px; color: #1783A1;">Orthopaedic </p>
+
+              </div>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card  shadow card-no-border">
+            <img src="images/specilist_02.jpg" alt="">
+            <div class="card-body">
+              <p style="color: #16345F;font-size: 20px; font-weight: 700;">Dr. J Dheenadhayalan</p>
+              <div class="countercontent d-flex align-items-start justify-content-start">
+                <img src="images/medical-assistance 1.png" alt="" class="pr-4">
+                <p style=" font-weight:500; font-size:20px; padding-left: 20px; margin-top: -2px; color: #1783A1;">Senior Consultant </p>
+
+              </div>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow card-no-border">
+            <img src="images/specilist_03.jpg" alt="">
+            <div class="card-body">
+              <p style="color: #16345F;font-size: 20px; font-weight: 700;">Dr. Ajoy Prasad Shetty</p>
+              <div class="countercontent d-flex align-items-start justify-content-start">
+                <img src="images/medical-assistance 1.png" alt="" class="pr-4">
+                <p style=" font-weight:500; font-size:20px; padding-left: 20px; margin-top: -2px; color: #1783A1;">Senior Consultant </p>
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card shadow card-no-border">
+            <img src="images/specilist_04.jpg" alt="">
+            <div class="card-body">
+              <p style="color: #16345F;font-size: 20px; font-weight: 700;">Dr. S.R. Sundararajan</p>
+              <div class="countercontent d-flex align-items-start justify-content-start">
+                <img src="images/medical-assistance 1.png" alt="" class="pr-4">
+                <p style=" font-weight:500; font-size:20px; padding-left: 20px; margin-top: -2px; color: #1783A1;">Senior Consultant</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      
+
+    </div>
+    
+
+
+
+   <div class="sixthsection coloredgreen px-4 py-5">
+    
+    <div class="container ">
+      <div class="row align-items-center">
+        <!-- Left Content Column -->
+        <div class="col-lg-6">
+          <p class="colorpragraph">Our work</p>
+              <h2 class="display-5 fw-bold    lh-1 mb-4">Our Proven Success in Arthroscopy
+
+              </h2>
+          <div class="listitems ">
+              <ul class="custom-list">
+                  <li class="mb-3"><span class="custom-icon"><img src="images/check 1.png" alt=""></span>Experience the transformative stories of our patients as they regain mobility and confidence through our advanced arthroscopy and sports medicine treatments at Ganga Hospital.
+                  </li>
+                  <li><span class="custom-icon"><img src="images/check 1.png" alt=""></span>
+                    Each image represents our dedicated commitment to excellence and highlights the life-changing outcomes of our specialized care. Hear directly from our patients about their journeys towards recovery and renewed vitality.
+                   
+                   </li>
+                  
+                </ul>
+               
+          </div>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start firstsectionbutton mt-3">
+            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Learn More</button>
+          
+          </div>
+        </div>
+        
+        <!-- Right Slider Column -->
+        <div class="col-md-6">
+          <div class="custom-container">
+            <div class="custom-image-container">
+              <img
+                class="custom-image-before custom-slider-image"
+                src="images/Before21.jpg"
+                alt="color photo"
+              />
+              <img
+                class="custom-image-after custom-slider-image"
+                src="images/After2.jpg"
+                alt="black and white"
+              />
+            </div>
+            <input
+              type="range"
+              min="0"
+              max="100"
+              value="50"
+              aria-label="Percentage of before photo shown"
+              class="custom-slider"
+            />
+            <div class="custom-slider-line" aria-hidden="true"></div>
+            <div class="custom-slider-button" aria-hidden="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 256 256">
+                <rect width="256" height="256" fill="none"></rect>
+                <line x1="128" y1="40" x2="128" y2="216" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                <line x1="96" y1="128" x2="16" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                <polyline points="48 160 16 128 48 96" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
+                <line x1="160" y1="128" x2="240" y2="128" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></line>
+                <polyline points="208 96 240 128 208 160" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16"></polyline>
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   </div>
+
+   <div class="seventhsection container px-4 py-5">
+   
+      <h2 class="display-5 fw-bold  lh-1 mb-4">Our medical Specialist
+      </h2>
+      <div class="row row-cols-lg-4 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow card-no-border rounded-3">
+            <img src="images/spine.jpg" alt="" class=".rounded-1" style=" border-top-left-radius: 10px;   border-top-right-radius: 10px;    ">
+            <div class="card-body">
+              <p style="color: #16345F;font-size: 20px; font-weight: 700;">Shoulder Dislocation</p>
+              <div class="countercontent d-flex align-items-center justify-content-between">
+                <img src="images/arrowright.png" alt="" class="pr-4">
+                <img src="images/backbone.png" alt="">
+                
+
+              </div>
+             
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow card-no-border rounded-3">
+            <img src="images/PCLTear.jpg" alt="" style=" border-top-left-radius: 10px;   border-top-right-radius: 10px;    ">
+            <div class="card-body">
+              <p style="color: #16345F;font-size: 20px; font-weight: 700;"> PCL Tear</p>
+              <div class="countercontent d-flex align-items-center justify-content-between">
+                <img src="images/arrowright.png" alt="" class="pr-4">
+                <img src="images/knee 1.png" alt="">
+                
+
+              </div>
+            
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow card-no-border">
+            <img src="images/MeniscalInjuries.jpg" alt="" class=".rounded-1" style=" border-top-left-radius: 10px;   border-top-right-radius: 10px;    ">
+            <div class="card-body">
+              <p style="color: #16345F;font-size: 20px; font-weight: 700;">Meniscal Injuries</p>
+              <div class="countercontent d-flex align-items-center justify-content-between">
+                <img src="images/arrowright.png" alt="" class="pr-4">
+                <img src="images/backbone.png" alt="">
+                
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+  
+        <div class="col">
+          <div class="card shadow card-no-border">
+            <img src="images/Cartilageinjuries.jpg" alt="" class=".rounded-1" style=" border-top-left-radius: 10px;   border-top-right-radius: 10px;    ">
+            <div class="card-body">
+              <p style="color: #16345F;font-size: 20px; font-weight: 700;">Cartilage injuries</p>
+              <div class="countercontent d-flex align-items-center justify-content-between">
+                <img src="images/arrowright.png" alt="" class="pr-4">
+                <img src="images/backbone.png" alt="">
+                
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow card-no-border">
+            <img src="images/ACLTear.jpg" alt="" class=".rounded-1" style=" border-top-left-radius: 10px;   border-top-right-radius: 10px;    ">
+            <div class="card-body">
+              <p style="color: #16345F;font-size: 20px; font-weight: 700;">ACL Tear</p>
+              <div class="countercontent d-flex align-items-center justify-content-between">
+                <img src="images/arrowright.png" alt="" class="pr-4">
+                <img src="images/strong 1.png" alt="">
+                
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow card-no-border">
+            <img src="images/Orthogeriatrics.jpg" alt="" class=".rounded-1" style=" border-top-left-radius: 10px;   border-top-right-radius: 10px;    ">
+            <div class="card-body">
+              <p style="color: #16345F;font-size: 20px; font-weight: 700;">Ankle sprain</p>
+              <div class="countercontent d-flex align-items-center justify-content-between">
+                <img src="images/arrowright.png" alt="" class="pr-4">
+                <img src="images/backbone.png" alt="">
+                
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow card-no-border">
+            <img src="images/Paediatric.jpg" alt="" class=".rounded-1" style=" border-top-left-radius: 10px;   border-top-right-radius: 10px;    ">
+            <div class="card-body">
+              <p style="color: #16345F;font-size: 20px; font-weight: 700;">Ankle Impingement</p>
+              <div class="countercontent d-flex align-items-center justify-content-between">
+                <img src="images/arrowright.png" alt="" class="pr-4">
+                <img src="images/backbone.png" alt="">
+                
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card shadow card-no-border">
+            <img src="images/Anklesprain.jpg" alt="" class=".rounded-1" style=" border-top-left-radius: 10px;   border-top-right-radius: 10px;    ">
+            <div class="card-body">
+              <p style="color: #16345F;font-size: 20px; font-weight: 700;"> Synovitis</p>
+              <div class="countercontent d-flex align-items-center justify-content-between">
+                <img src="images/arrowright.png" alt="" class="pr-4">
+                <img src="images/foot 1.png" alt="">
+                
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
+
+        
+        
+      </div>
+      
+
+    </div>
+    
+
+    <section class="trauma-testimonial-bg">
+      <div class="container">
+          <div class="row">
+
+              <div class="col-lg-5 mb-5 mb-lg-0">
+                 <div class="testi-title">
+                   
+                    <h2>Valuable Feedback
+                      From Our Patients</h2>
+                      <a href="">View All Reviews</a>
+                 </div>
+              </div>
+
+              <div class="col-lg-7">
+
+                  <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                      <div class="carousel-inner">
+
+                        <div class="client carousel-item active">
+                          <img src="images/double-quotes 1.png" class="double-quote">
+                     <p class="fst-italic mt-4 mt-lg-5">
+                      One of the best hospitals I have ever visited. The treatment provided was very good. The doctors and nurses were very considerate and helpful. They have a lot of facilities available. We never felt neglected in any situation. There are parking facilities with lift technology. The hospital to improve the lift for customers, but we should wait 15 minutes to reach the floor.
+                      </p>
+                        <h3 class="fs-5 fw-semibold lh-base mb-3"> ASIF A REHMAN<span class="fw-normal d-block fs-6">Business Man,</span></h3>
+                        <h5 class="fs-6 fw-semibold">Rating 5.0 <img src="images/review-star.png" class="ms-2"></h5>
+                        </div>
+
+                        <div class="client carousel-item">
+                          <img src="images/double-quotes 1.png" class="double-quote">
+                     <p class="fst-italic mt-4 mt-lg-5">Doctors here in Ganga Hospital SRS sir and his team, RSK sir and his team saved my legs, suffering from a nonhealing ulcer treated and now I can walk without pain for the last ten years. My heartfelt thanks to all doctors in ot and sisters in ot and ward and all other supporting staff. One small suggestion is that the quality of food needs to be improved. Thank you all once again me and my family.
+                    </p>
+                        <h3 class="fs-5 fw-semibold lh-base mb-3">Saritha Iyer
+                          <span class="fw-normal d-block fs-6">Business Women,</span></h3>
+                        <h5 class="fs-6 fw-semibold">Rating 4.0 <img src="images/review-star4.png" class="ms-2"></h5>
+                        </div>
+
+                        <div class="client carousel-item">
+                          <img src="images/double-quotes 1.png" class="double-quote">
+                     <p class="fst-italic mt-4 mt-lg-5">A special thanks to the staff nurse in the 3AAA & 2AAA ward. Their contribution as a service is very highly appreciable. They were very friendly, polite, and like family members to take of the patient's health. Never hesitated to help with any kind of work at any time. Much appreciated. All the best girls.
+                    </p>
+                        <h3 class="fs-5 fw-semibold lh-base mb-3">Bharath P <span class="fw-normal d-block fs-6">Business Man,</span></h3>
+                        <h5 class="fs-6 fw-semibold">Rating 5.0 <img src="images/review-star.png" class="ms-2"></h5>
+                        </div>
+
+                      </div>
+
+                      <button class="testi-but carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="testi-but carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+                  
+              </div>
+
+          </div>
+      </div>    
+  </section>   
+
+   
+  <section class="trauma-Achievements-bg">
+    <div class="container">
+        <div class="row align-items-center"> 
+
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="achive-text">
+                  <p  style="color: #1783A1; font-size: 20px; font-weight: 600;">Our Achievements</p>  
+                    <h2 class="mb-3 fw-bold lh-sm">Our Reputable Achievements in Spine Surgery</h2>
+                    <p class="mb-4">Ganga Hospital is recognized as one of the top 10 best hospital in India for arthroscopic and sports medicine. With over 15,000 successful surgeries, their surgeons have received prestigious awards for innovation in minimally invasive techniques and rehabilitation protocols. We are committed to delivering advancing orthopedic care and enhancing athletic performance with the highest standard of care.
+                    </p>
+                      <a href ="#" class=" fw-semibold">View All Awards</a>
+                 </div>
+            </div>
+
+            <div class="col-lg-6">
+                <ul class="ps-lg-3 p-0 m-0">
+                    <li><img src="images/achivement-1.jpg"></li>
+                    <li><img src="images/achivement_awards-1.jpg"></li>
+                    <li><img src="images/achivement-2.jpg"></li>
+                    <li><img src="images/achivement_awards-2.jpg"></li>
+                    <li><img src="images/achivement-3.jpg"></li>
+                    <li><img src="images/achivement_awards-3.jpg"></li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>    
+</section> 
+
+
+<section class="faq">
+  <div class="container">
+    <div class="faq-title">
+       <p class="text-center" style="color: #1783A1; font-size: 20px; font-weight: 600;">Get Your Answer</p>        
+      <h4 class="fw-bold mt-3 mb-5 text-center">Frequently Asked Questions</h4>
+  </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="faq-img">
+              <img src="images/couple-gynecologist-smile-as-patient-office-clinic-consultation-family-planning-people-relationship-doctor-with-good-news-happy-feedback-medical-healthcare-report 1.jpg">
+          </div>
+      </div>
+
+
+          <div class="col-lg-6">
+            
+              <div class="faq accordion" id="accordion-faq">
+
+                  <div class="accordion-item">
+                    <h5>
+                      <button class="accordion-button fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          <img src="images/request 1.png" class="pe-3"> Which hospital in India is best for orthopedic medical tourism?
+
+                      </button>
+                    </h5>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordion-faq">
+                      <div class="accordion-body">
+                        Ganga Hospital is renowned as top ortho hospital in India. Delivering excellent treatment in various sectors of the orthopedic department. It is the first center in Asia to become a member of the International Society of Orthopedic Centers (ISOC) ensuring the highest quality standards.We are identified as the top-rated orthopedic medical tourism hospital in India
+                      </div>
+                    </div>
+                  </div>    
+                  
+                  <div class="accordion-item">
+                      <h5>
+                        <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <img src="images/request 1.png" class="pe-3">Why medical tourism in India?
+
+                        </button>
+                      </h5>
+                      <div id="collapseTwo" class="accordion-collapse collapse " data-bs-parent="#accordion-faq">
+                        <div class="accordion-body">
+                          India has become a top destination for medical tourism due to its affordable healthcare, particularly for orthopedic surgeries. By comparing Western countries, the orthopaedic medical treatment packages in India are at a reasonable price making it an excellent option for both quality and cost.Additionally, medical tourists can experience India's rich cultural heritage alongside modern amenities
+                        </div>
+                    </div>  
+                  </div>     
+
+                    <div class="accordion-item">
+                      <h5>
+                        <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <img src="images/request 1.png" class="pe-3">What are the benefits of medical tourism?
+
+                        </button>
+                      </h5>
+                      <div id="collapseThree" class="accordion-collapse collapse " data-bs-parent="#accordion-faq">
+                        <div class="accordion-body">
+                          <ul>
+                            <li>Significantly lower treatment costs than in many Western nations.
+                            </li>
+                            <li>Availability of top-notch experts and cutting-edge medical care.
+                            </li>
+                            <li>A focus on providing individualized care to ensure patient comfort and satisfaction.
+                            </li>
+                            <li>The chance to discover India's breathtaking scenery and rich cultural legacy while receiving medical attention.  
+                            </li>
+                          </ul>
+                                                     </div>
+                      </div>   
+                    </div>    
+                  
+              </div>                    
+          </div>
+
+         
+      </div>
+  </div>    
+</section> 
+
+<div class="lastsection">
+  <div class="container col-xxl-12 px-4 py-5">
+      <div class="row flex align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="/images/tophospital.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+        </div>
+        <div class="col-lg-6">
+         
+              <h1 class="display-5 fw-bold    lh-1 mb-4">Top Hospital in India for<br> Orthopedic Medical Tourism
+              </h1>
+
+        <p style="line-height: 30px; color: #888888;">Dr. S. Rajasekaran is a well-known top ortho surgeon in India and the Chairman of the Division of Orthopedic Surgery, Hand Surgery, Reconstructive Microsurgery, and Burns at Ganga Hospital. As the best surgeon in India, he pioneered reconstructive microsurgery and established a leading hand injury and replantation service across the country.
+        </p>
+          <div class="listitems d-flex justify-content-between  lg-gx-5 md-gx-4">
+              <div class="experience d-flex  justify-content-center align-items-center p-2 " style=" border: 5px #1783A1 solid;">
+                <p style="font-size: 30px; font-weight: 700;" class="text-center"> 25 Years Of
+                  Experience</p>
+              </div>
+              <div class="list" style="padding-left: 20px;">
+                <ul class="custom-list">
+                  <li class="mb-3"><span class="custom-icon"><img src="images/check 1.png" alt=""></span>Healthcare Innovation  
+                  </li>
+                  <li class="mb-3"><span class="custom-icon"><img src="images/check 1.png" alt=""></span>Rehabilitation care</li>
+                  <li class="mb-3"><span class="custom-icon"><img src="images/check 1.png" alt=""></span>Multidisciplinary Care  
+                  </li>
+                  <li class="mb-3"><span class="custom-icon"><img src="images/check 1.png" alt=""></span>Personalized Treatment 
+                  </li>
+                </ul>
+              </div>
+               
+          </div>
+
+          <div class="listitems d-flex justify-content-between mt-3">
+            
+            <div class="experience" style="">
+              <p style="color: #17345F; font-size: 20px; font-weight: 700; margin-bottom: 0px;"> Raja Sabapathy
+              </p>
+              <p>Chairman</p>
+            </div>
+            <div class="last">
+
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">More About Us</button>
+            </div>
+        </div>
+
+
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script>
+        var a = 0;
+        $(window).scroll(function() {
+    
+            var oTop = $('.counter_rht').offset().top - window.innerHeight;
+            if (a == 0 && $(window).scrollTop() > oTop) {
+                $('.counter-value').each(function() {
+                    var $this = $(this),
+                        countTo = $this.attr('data-count');
+                    $({
+                        countNum: $this.text()
+                    })
+                    .animate({
+                            countNum: countTo
+                        },
+    
+                        {
+                            duration: 4000,
+                            easing: 'swing',
+                            step: function() {
+                                $this.text(Math.floor(this.countNum));
+                            },
+                            complete: function() {
+                                $this.text(this.countNum);
+                                //alert('finished');
+                            }
+    
+                        });
+                });
+                a = 1;
+            }
+    
+        });
+  const container = document.querySelector('.custom-container');
+  document.querySelector('.custom-slider').addEventListener('input', (e) => {
+    container.style.setProperty('--position', `${e.target.value}%`);
+  });
+    </script>
+    <script src="js/javascript.js"></script>
+    
 </body>
 </html>
